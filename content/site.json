@@ -1,0 +1,129 @@
+{
+  "business": {
+    "name": "HustleWave",
+    "tagline": "Websites for service businesses, rebuilt to convert.",
+    "phone": "",
+    "phone_display": "",
+    "email": "contact@hustlewavemedia.com",
+    "address": "",
+    "hours": "",
+    "service_area": "United States"
+  },
+  "hero": {
+    "badge": "Preview First. Pay Later.",
+    "headline_pre": "Websites for service businesses,",
+    "headline_accent": "rebuilt to convert.",
+    "subheadline": "We rebuild your website before you pay, so you can see exactly what you’re getting before you commit.",
+    "subheadline_secondary": "Custom build. Mobile-optimized. Built for more calls and leads.",
+    "cta_primary_text": "Get My Free Preview",
+    "cta_primary_link": "contact.html",
+    "cta_secondary_text": "See How It Works",
+    "cta_secondary_link": "how-it-works.html"
+  },
+  "problem": {
+    "headline_pre": "You don't have a traffic problem.",
+    "headline_accent": "You have a conversion problem.",
+    "body": "You’re already getting attention from referrals, Google Business Profile, local search, and social media. But you're losing leads every day because of your website.",
+    "issues": [
+      { "title": "It looks outdated:", "description": "People judge your business fast online." },
+      { "title": "It feels untrustworthy:", "description": "A cheap site makes your service look cheap." },
+      { "title": "Bad mobile performance:", "description": "Most of your clients are on their phones." },
+      { "title": "Hard to contact:", "description": "Weak calls to action mean people bounce instead of booking." }
+    ],
+    "card_title": "Service businesses need websites that convert, not just exist.",
+    "card_body": "Your website is your digital storefront. If it's broken, confusing, or just plain ugly, potential clients will go to your competitor. Let's fix that.",
+    "card_cta_text": "Let's Fix Your Site",
+    "card_cta_link": "contact.html"
+  },
+  "process": {
+    "headline": "You do not pay first and hope for the best.",
+    "subheadline": "Seeing your website before paying lowers your risk. We build it, you preview it, and you only move forward if you love it.",
+    "steps": [
+      { "title": "1. We build a demo", "description": "We review your current site and create a tailored preview version completely risk-free." },
+      { "title": "2. We walk through it", "description": "We hop on a quick call to show you the opportunity clearly and explain exactly how it will capture more leads." },
+      { "title": "3. You decide", "description": "You only pay if you want to move forward. Zero pressure, pure opportunity." }
+    ]
+  },
+  "includes": {
+    "headline": "What’s Included in the Build",
+    "subheadline": "No generic templates. No fake agency fluff. Just a custom, high-converting website built for your service business.",
+    "groups": [
+      {
+        "title": "Design & Structure",
+        "summary": "Everything you need for a premium, authoritative online presence.",
+        "items": ["Custom high-converting build", "Mobile-optimized design", "Conversion-focused layout", "Core pages (Home, Services, About, Contact)"]
+      },
+      {
+        "title": "Content & Conversion",
+        "summary": "",
+        "items": ["Professional service copywriting", "Contact form setup", "Click-to-call integration"]
+      },
+      {
+        "title": "Launch & Support",
+        "summary": "",
+        "items": ["Domain & hosting assistance", "1 round of revisions", "Full launch of site"]
+      }
+    ]
+  },
+  "care_plan": {
+    "headline": "The Monthly Care Plan",
+    "body": "A website shouldn't just be launched and abandoned. We keep your site live, maintained, supported, and updated so you can focus on running your business.",
+    "items": [
+      "Premium Hosting & Uptime Monitoring",
+      "Ongoing Site Maintenance",
+      "Small Content Updates & Text Edits",
+      "Image Swaps & Business Info Changes",
+      "Support when you need it"
+    ],
+    "side_card_title": "Turnaround Timeline",
+    "side_card_body": "We don't waste time. Most websites are completed within 24 to 72 hours after you officially move forward and provide the required information.",
+    "side_card_secondary": "This means you can start capturing leads faster, without the typical months-long agency wait times."
+  },
+  "pricing": {
+    "headline": "Simple, clean pricing.",
+    "subheadline": "No hidden fees. No confusing tiers.",
+    "build": {
+      "name": "Website Build",
+      "description": "Everything you need to launch a high-converting site.",
+      "price": "$997",
+      "price_period": "one-time",
+      "footnote": "Paid only after you preview the demo.",
+      "cta_text": "Get Started",
+      "cta_link": "contact.html"
+    },
+    "care": {
+      "name": "Care Plan",
+      "description": "Ongoing management and support.",
+      "price": "$100",
+      "price_period": "/month",
+      "footnote": "Starts after the website is launched.",
+      "cta_text": "See What's Included",
+      "cta_link": "how-it-works.html"
+    }
+  },
+  "who_its_for": {
+    "headline": "Who We Build For",
+    "subheadline": "HustleWave is specialized for local service businesses that need to turn traffic into booked jobs.",
+    "tags": ["Plumbers", "HVAC", "Electricians", "Roofers", "Landscapers", "Cleaning Companies", "Contractors", "Auto Detailers"]
+  },
+  "faqs_homepage": [
+    { "question": "Why do you rebuild the website before payment?", "answer": "We believe in lowering the risk for you. Instead of asking you to pay first and hope for the best, we build a preview version. You see exactly what you’re getting, we walk you through it, and you only move forward if you like the direction." },
+    { "question": "What is included in the build?", "answer": "A custom, mobile-optimized, conversion-focused layout. We handle the service-based copywriting, core pages (Home, Services, About, Contact), contact forms, click-to-call setup, basic SEO, and 1 round of revisions before launch." },
+    { "question": "How fast can you launch?", "answer": "Most websites are completed and ready to launch within 24 to 72 hours after you officially move forward and provide the required information (like your business details and service list)." },
+    { "question": "Do you guarantee leads?", "answer": "No. We build websites that are optimized to convert the traffic you get. We provide a massive improvement to trust, clarity, and conversion potential, but we cannot guarantee specific revenue or lead numbers." }
+  ],
+  "final_cta": {
+    "headline": "Want to see what your website could look like before you pay?",
+    "button_text": "Get My Free Preview",
+    "button_link": "contact.html"
+  },
+  "footer": {
+    "tagline": "A conversion-focused website service for local service businesses. Built to get calls, leads, and booked jobs.",
+    "copyright_year": "2026"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/official_hustlewave/",
+    "facebook": "",
+    "google_business": ""
+  }
+}

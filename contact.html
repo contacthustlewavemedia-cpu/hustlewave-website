@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Started — HustleWave</title>
+  <meta name="description" content="Ready to see your new website? Fill out the HustleWave interest form and we'll prep your free preview first.">
+  <meta name="theme-color" content="#0a0f1c">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://hustlewave.com/contact.html">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="HustleWave">
+  <meta property="og:title" content="Get Started — HustleWave">
+  <meta property="og:description" content="Ready to see your new website? Fill out the HustleWave interest form and we'll prep your free preview first.">
+  <meta property="og:url" content="https://hustlewave.com/contact.html">
+  <meta property="og:image" content="https://hustlewave.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Get Started — HustleWave">
+  <meta name="twitter:description" content="Ready to see your new website? Fill out the HustleWave interest form and we'll prep your free preview first.">
+  <meta name="twitter:image" content="https://hustlewave.com/og-image.png">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script src="content-loader.js" defer></script>
+  <style>
+    .ig-cta-section {
+      min-height: calc(100vh - 200px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 0;
+    }
+
+    .ig-card {
+      background: white;
+      border-radius: var(--radius-xl);
+      padding: 4rem;
+      box-shadow: var(--shadow-lg);
+      text-align: center;
+      max-width: 560px;
+      width: 100%;
+      border: 1px solid rgba(0,0,0,0.04);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ig-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--color-text-main), var(--color-sky-blue));
+    }
+
+    .ig-icon-wrap {
+      width: 96px;
+      height: 96px;
+      margin: 0 auto 2rem;
+      border-radius: 28px;
+      background: linear-gradient(135deg, var(--color-text-main), var(--color-sky-blue));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 12px 40px rgba(14, 165, 233, 0.25);
+      animation: float-small 5s ease-in-out infinite alternate;
+    }
+
+    .ig-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      padding: 1.1rem 2.5rem;
+      background: linear-gradient(135deg, var(--color-text-main), var(--color-sky-blue));
+      color: white !important;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      border-radius: var(--radius-full);
+      box-shadow: 0 8px 32px rgba(14, 165, 233, 0.25);
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      margin-top: 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ig-btn::after {
+      content: '';
+      position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: all 0.5s;
+    }
+
+    .ig-btn:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 14px 40px rgba(14, 165, 233, 0.35);
+    }
+
+    .ig-btn:hover::after { left: 100%; }
+
+    .steps-row {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 3rem;
+      text-align: left;
+    }
+
+    .step-pill {
+      flex: 1;
+      background: var(--color-bg-secondary);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+    }
+
+    .step-pill .num {
+      font-family: var(--font-heading);
+      font-weight: 800;
+      font-size: 1.5rem;
+      color: var(--color-sky-blue);
+      line-height: 1;
+      margin-bottom: 0.4rem;
+    }
+
+    .step-pill p {
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      .ig-card { padding: 2.5rem 1.75rem; }
+      .steps-row { flex-direction: column; gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <nav>
+    <div class="container nav-container">
+      <a href="index.html" class="logo-link">
+        <img src="logo.png" alt="HustleWave Logo" class="logo-img">
+      </a>
+      
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="how-it-works.html" class="nav-link">How It Works</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="btn btn-outline" style="padding: 0.5rem 1.5rem;">Get Started</a>
+      </div>
+
+      <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false"></button>
+    </div>
+  </nav>
+
+  <header class="hero" id="main" style="min-height: 40vh;">
+    <div class="mesh-bg">
+      <div class="mesh-orb orb-1"></div>
+      <div class="mesh-orb orb-2"></div>
+      <div class="mesh-orb orb-3"></div>
+      <div class="noise-overlay"></div>
+    </div>
+    <div class="container text-center">
+      <div class="hero-content fade-in-up">
+        <h1>Let's get started.</h1>
+        <p style="font-size: 1.35rem; font-weight: 500; color: var(--color-text-main);">Tell us about your business and we’ll prep the preview.</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="ig-cta-section">
+    <div class="container" style="display: flex; justify-content: center;">
+      <div class="ig-card fade-in-up">
+
+        <div class="ig-icon-wrap">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 11l3 3L22 4"/>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+          </svg>
+        </div>
+
+        <h2 style="font-size: 2rem; margin-bottom: 0.75rem;">Start with the interest form</h2>
+        <p style="font-size: 1.1rem; color: var(--color-text-muted); max-width: 420px; margin: 0 auto;">
+          Answer a few quick questions so we can review your business, prep a custom website preview, and send you the strategy call link.
+        </p>
+
+        <a href="https://forms.gle/fPVM2vnHns13s2Hm8" target="_blank" rel="noopener noreferrer" class="ig-btn">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 11l3 3L22 4"/>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+          </svg>
+          Fill Out Interest Form
+        </a>
+
+        <p style="font-size: 0.95rem; color: var(--color-text-muted); margin: 1.25rem auto 0; max-width: 420px;">
+          Prefer Instagram? You can still DM us at <a href="https://www.instagram.com/official_hustlewave/" target="_blank" rel="noopener noreferrer">@official_hustlewave</a>.
+        </p>
+        <p style="font-size: 0.95rem; color: var(--color-text-muted); margin: 0.65rem auto 0; max-width: 420px;">
+          Need help? Email <a href="mailto:contact.hustlewavemedia@gmail.com">contact.hustlewavemedia@gmail.com</a>.
+        </p>
+
+        <div class="steps-row">
+          <div class="step-pill">
+            <div class="num">01</div>
+            <p>Fill out the interest form</p>
+          </div>
+          <div class="step-pill">
+            <div class="num">02</div>
+            <p>We prep your free preview</p>
+          </div>
+          <div class="step-pill">
+            <div class="num">03</div>
+            <p>You get the strategy call link</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 style="font-family: var(--font-heading); margin-bottom: 1rem;">HustleWave</h3>
+          <p style="max-width: 300px;">A conversion-focused website service for local service businesses. Built to get calls, leads, and booked jobs.</p>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 1.5rem; color: white;">Company</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 1.5rem; color: white;">Legal &amp; Connect</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html">Get Started</a></li>
+            <li><a href="service-agreement.html">Service Agreement</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="https://www.instagram.com/official_hustlewave/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem; text-align: center;">
+        <p>&copy; 2026 HustleWave. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
