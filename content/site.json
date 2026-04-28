@@ -1,6 +1,6 @@
 {
   "business": {
-    "name": "HustleWave",
+    "name": "HustleWave Media",
     "tagline": "Websites for service businesses, rebuilt to convert.",
     "phone": "",
     "phone_display": "",
@@ -13,7 +13,7 @@
     "badge": "Preview First. Pay Later.",
     "headline_pre": "Websites for service businesses,",
     "headline_accent": "rebuilt to convert.",
-    "subheadline": "We rebuild your website before you pay, so you can see exactly what you’re getting before you commit.",
+    "subheadline": "We rebuild your website before you pay, so you can see exactly what youâre getting before you commit.",
     "subheadline_secondary": "Custom build. Mobile-optimized. Built for more calls and leads.",
     "cta_primary_text": "Get My Free Preview",
     "cta_primary_link": "contact.html",
@@ -23,7 +23,7 @@
   "problem": {
     "headline_pre": "You don't have a traffic problem.",
     "headline_accent": "You have a conversion problem.",
-    "body": "You’re already getting attention from referrals, Google Business Profile, local search, and social media. But you're losing leads every day because of your website.",
+    "body": "Youâre already getting attention from referrals, Google Business Profile, local search, and social media. But you're losing leads every day because of your website.",
     "issues": [
       {
         "title": "It looks outdated:",
@@ -66,7 +66,7 @@
     ]
   },
   "includes": {
-    "headline": "What’s Included in the Build",
+    "headline": "Whatâs Included in the Build",
     "subheadline": "No generic templates. No fake agency fluff. Just a custom, high-converting website built for your service business.",
     "groups": [
       {
@@ -152,7 +152,7 @@
   "faqs_homepage": [
     {
       "question": "Why do you rebuild the website before payment?",
-      "answer": "We believe in lowering the risk for you. Instead of asking you to pay first and hope for the best, we build a preview version. You see exactly what you’re getting, we walk you through it, and you only move forward if you like the direction."
+      "answer": "We believe in lowering the risk for you. Instead of asking you to pay first and hope for the best, we build a preview version. You see exactly what youâre getting, we walk you through it, and you only move forward if you like the direction."
     },
     {
       "question": "What is included in the build?",
