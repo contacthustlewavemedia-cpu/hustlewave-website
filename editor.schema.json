@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "tabs": [
+    {
+      "key": "business",
+      "label": "Business",
+      "fields": [
+        { "kind": "text", "path": "business.name", "label": "Business name", "hint": "Appears in the footer next to the copyright." },
+        { "kind": "text", "path": "business.tagline", "label": "Tagline", "hint": "Short line under your business name in the footer." },
+        { "kind": "phone", "path": "business.phone_display", "label": "Phone (display)", "hint": "Shown next to phone icons throughout the site (formatted, e.g., (555) 123-4567)." },
+        { "kind": "phone", "path": "business.phone", "label": "Phone (E.164)", "hint": "Used for click-to-call links. Must start with +1 and digits only.", "placeholder": "+15555555555" },
+        { "kind": "email", "path": "business.email", "label": "Email", "hint": "Used for contact links and the contact section." },
+        { "kind": "text", "path": "business.address", "label": "Address", "hint": "Shown in the contact section and footer if set." },
+        { "kind": "text", "path": "business.hours", "label": "Hours", "hint": "Shown in the contact section (e.g., Mon-Fri 9-5)." },
+        { "kind": "text", "path": "business.service_area", "label": "Service area", "hint": "Shown on the contact page (e.g., Bay Area, California)." }
+      ]
+    },
+    {
+      "key": "hero",
+      "label": "Hero",
+      "fields": [
+        { "kind": "text", "path": "hero.badge", "label": "Badge", "hint": "Small pill above your main headline (e.g., 'Local plumbing experts')." },
+        { "kind": "text", "path": "hero.headline_pre", "label": "Headline (pre)", "hint": "First part of the big headline at the top of your homepage." },
+        { "kind": "text", "path": "hero.headline_accent", "label": "Headline accent", "hint": "Highlighted/colored part of the homepage headline." },
+        { "kind": "textarea", "path": "hero.subheadline", "label": "Subheadline", "hint": "Sentence under the headline that explains what you do." },
+        { "kind": "textarea", "path": "hero.subheadline_secondary", "label": "Subheadline (secondary)", "hint": "Optional second sentence after the main subheadline." },
+        { "kind": "text", "path": "hero.cta_primary_text", "label": "Primary CTA text", "hint": "Label on the main button in the hero (e.g., 'Get a free quote')." },
+        { "kind": "url", "path": "hero.cta_primary_link", "label": "Primary CTA link", "hint": "Where the main button goes (e.g., #contact, tel:+15555555555)." },
+        { "kind": "text", "path": "hero.cta_secondary_text", "label": "Secondary CTA text", "hint": "Label on the secondary button next to the main one." },
+        { "kind": "url", "path": "hero.cta_secondary_link", "label": "Secondary CTA link", "hint": "Where the secondary button goes." }
+      ]
+    },
+    {
+      "key": "pricing",
+      "label": "Pricing",
+      "fields": [
+        { "kind": "text", "path": "pricing.build.name", "label": "Build — Name", "hint": "Title of the build/setup pricing card." },
+        { "kind": "text", "path": "pricing.build.description", "label": "Build — Description", "hint": "Short blurb under the build card title." },
+        { "kind": "text", "path": "pricing.build.footnote", "label": "Build — Footnote", "hint": "Small text below the price (e.g., 'one-time, billed at start')." },
+        { "kind": "text", "path": "pricing.build.cta_text", "label": "Build — CTA text", "hint": "Button label on the build card." },
+        { "kind": "url", "path": "pricing.build.cta_link", "label": "Build — CTA link", "hint": "Where the build card button goes." },
+        { "kind": "text", "path": "pricing.care.name", "label": "Care — Name", "hint": "Title of the monthly care plan card." },
+        { "kind": "text", "path": "pricing.care.description", "label": "Care — Description", "hint": "Short blurb under the care plan card title." },
+        { "kind": "text", "path": "pricing.care.footnote", "label": "Care — Footnote", "hint": "Small text under the monthly price (e.g., 'cancel anytime')." },
+        { "kind": "text", "path": "pricing.care.cta_text", "label": "Care — CTA text", "hint": "Button label on the care plan card." },
+        { "kind": "url", "path": "pricing.care.cta_link", "label": "Care — CTA link", "hint": "Where the care plan card button goes." }
+      ]
+    },
+    {
+      "key": "faqs",
+      "label": "FAQs",
+      "fields": [
+        {
+          "kind": "list",
+          "path": "faqs_homepage",
+          "label": "FAQs (homepage)",
+          "itemLabel": "FAQ",
+          "itemFields": [
+            { "kind": "text", "path": "question", "label": "Question" },
+            { "kind": "textarea", "path": "answer", "label": "Answer" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cta",
+      "label": "Final CTA",
+      "fields": [
+        { "kind": "text", "path": "final_cta.headline", "label": "Headline", "hint": "Big call-to-action headline near the bottom of your homepage." },
+        { "kind": "text", "path": "final_cta.button_text", "label": "Button text", "hint": "Label on the final CTA button." },
+        { "kind": "url", "path": "final_cta.button_link", "label": "Button link", "hint": "Where the final CTA button goes." }
+      ]
+    },
+    {
+      "key": "footer",
+      "label": "Footer",
+      "fields": [
+        { "kind": "text", "path": "footer.tagline", "label": "Footer tagline", "hint": "Short line shown in the footer under your business name." },
+        { "kind": "text", "path": "footer.copyright_year", "label": "Copyright year", "hint": "Year shown in the footer copyright line." },
+        { "kind": "url", "path": "social.instagram", "label": "Instagram", "hint": "Full URL to your Instagram profile. Leave blank to hide." },
+        { "kind": "url", "path": "social.facebook", "label": "Facebook", "hint": "Full URL to your Facebook page. Leave blank to hide." },
+        { "kind": "url", "path": "social.google_business", "label": "Google Business", "hint": "Full URL to your Google Business profile. Leave blank to hide." }
+      ]
+    },
+    {
+      "key": "images",
+      "label": "Images",
+      "fields": [
+        { "kind": "image", "path": "hero.image", "label": "Hero image", "hint": "The big photo at the top of your homepage." },
+        { "kind": "image", "path": "about.image", "label": "About image", "hint": "Photo shown in the About section (e.g., team or owner photo)." }
+      ]
+    }
+  ]
+}
