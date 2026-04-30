@@ -27,8 +27,8 @@
   ],
   "team": [],
   "announcement": {
-    "active": false,
-    "message": "",
+    "active": true,
+    "message": "Spring promotion: 15% off any service this month.",
     "link_url": "",
     "expires": ""
   },
