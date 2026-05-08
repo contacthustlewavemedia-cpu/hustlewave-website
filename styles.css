@@ -780,4 +780,36 @@ body.page-exit {
 
   /* FAQ icon */
   .faq-icon { background: rgba(255, 255, 255, 0.08); }
+
+  /* CTA section — was a primary-color gradient with white text; primary now flips light, so re-darken */
+  .bg-sky {
+    background: linear-gradient(135deg, var(--color-bg-secondary) 0%, #1f2940 100%);
+    color: var(--color-text-main);
+  }
+  .bg-sky p, .bg-sky h1, .bg-sky h2 { color: var(--color-text-main); text-shadow: none; }
+
+  /* Step numbers — white circle in light mode reads as a light circle with light text in dark */
+  .step-number { background: var(--color-bg-secondary); color: var(--color-text-main); }
+
+  /* Inline-styled surfaces using var(--color-text-main) as a background — meant to be the dark contrast surface, must stay dark */
+  [style*="background-color: var(--color-text-main)"],
+  [style*="background: var(--color-text-main)"],
+  [style*="background:var(--color-text-main)"] {
+    background-color: var(--color-bg-secondary) !important;
+    background: var(--color-bg-secondary) !important;
+  }
+
+  /* Inline-styled white pills/cards (e.g. service-business pills) — invert so they're readable */
+  [style*="background: white"],
+  [style*="background-color: white"],
+  [style*="background:white"],
+  [style*="background-color:white"],
+  [style*="background: #fff"],
+  [style*="background-color: #fff"] {
+    background: var(--color-bg-secondary) !important;
+    color: var(--color-text-main) !important;
+  }
+
+  /* Page-scoped surfaces from inline <style> blocks (need !important to win source-order) */
+  .ig-card { background: var(--color-bg-secondary) !important; border-color: var(--color-border) !important; }
 }
