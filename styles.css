@@ -738,7 +738,9 @@ body.page-exit {
   }
 
   /* Mobile nav panel */
-  .nav-links { background: var(--color-bg-secondary); box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6); }
+  @media (max-width: 768px) {
+    .nav-links { background: var(--color-bg-secondary); box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6); }
+  }
 
   /* Badges */
   .badge {
