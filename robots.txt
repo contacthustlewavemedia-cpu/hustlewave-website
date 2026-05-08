@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hustlewave.com/sitemap.xml
+Sitemap: https://hustlewave.net/sitemap.xml
