@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Service Agreement — HustleWave</title>
   <meta name="description" content="HustleWave Service Agreement — clear terms for the website build and monthly care plan.">
+  <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#0a0f1c">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://hustlewave.com/service-agreement.html">
@@ -157,6 +158,17 @@
       .toc-list { grid-template-columns: 1fr; }
       .acceptance-box { padding: 2rem 1.5rem; }
     }
+
+    @media (prefers-color-scheme: dark) {
+      .agreement-section { border-bottom-color: rgba(255, 255, 255, 0.08); }
+      .acceptance-box {
+        background: var(--color-bg-secondary);
+        color: var(--color-text-main);
+        border: 1px solid var(--color-border);
+      }
+      .acceptance-box h3 { color: var(--color-text-main); }
+      .acceptance-box p { color: var(--color-text-muted); }
+    }
   </style>
 </head>
 <body>
@@ -204,7 +216,7 @@
 
   <!-- Agreement Content -->
   <section style="padding-top: 4rem; padding-bottom: 6rem;">
-    <div class="agreement-body fade-in-up">
+    <div class="agreement-body">
 
       <!-- Table of Contents -->
       <div class="agreement-toc">
